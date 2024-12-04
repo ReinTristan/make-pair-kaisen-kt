@@ -1,0 +1,56 @@
+
+@font-face {
+    src: url("fonts/JustAnotherHand-Regular.ttf");
+}
+
+.bg-kaisen {
+    -fx-background-image: url("images/bg.jpg");
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+}
+.text-kaisen-title {
+    -fx-stroke-width: 4 !important;
+    -fx-white-space: pre-line;
+    -fx-text-alignment: center;
+}
+.text-kaisen {
+    -fx-font-weight: bold;
+    -fx-stroke: #EBDFAE;
+    -fx-stroke-width: 1;
+    -fx-fill: black;
+    -fx-font-family: "Just Another Hand";
+}
+.text-25 {
+    -fx-font-size: 25;
+}
+.button-kaisen {
+        -fx-font-weight: bold;
+        -fx-stroke: #EBDFAE;
+        -fx-stroke-width: 2px;
+        -fx-text-fill: black;
+        -fx-font-family: "Just Another Hand";
+        -fx-font-size: 35;
+        -fx-border-radius: 20px;
+        -fx-background-color: rgba(255, 255, 255, 0.5);
+}
+
+.button-kaisen:hover {
+        -fx-cursor: hand;
+        -fx-background-color: rgba(255, 255, 255, 0.7);
+}
+.card-kaisen {
+    -fx-border-radius: 20px;
+    -fx-preserve-ratio: true;
+    -fx-cursor: hand;
+}
+.input-kaisen {
+    -fx-font-family: "Just Another Hand";
+    -fx-font-size: 50;
+    -fx-border-radius: 20px;
+    -fx-background-color: rgba(255, 255, 255, 0.5);
+}
+.table-kaisen  {
+    -fx-font-family: "Just Another Hand";
+    -fx-font-size: 50;
+    -fx-background-color: rgba(255, 255, 255, 0.5);
+}
